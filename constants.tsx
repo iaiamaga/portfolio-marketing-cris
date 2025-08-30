@@ -51,21 +51,49 @@ export const skillsData: Skill[] = [
 
 export const projectsData: Project[] = [
     {
-        title: 'Campanha de Lançamento - Marca X',
+        title: 'Veluto',
         description: 'Estratégia de conteúdo e mídia paga para o lançamento do produto Y. Alcançamos 2 milhões de impressões e um aumento de 300% em seguidores no primeiro mês.',
         items: [
-            'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=2070&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop'
+            './src/veluto/1.png',
+            './src/veluto/2.png',
+            './src/veluto/3.png',
+            './src/veluto/4.png',
+            './src/veluto/5.png',
+            './src/veluto/6.png',
+            './src/veluto/7.png',
+            './src/veluto/8.png',
+            './src/veluto/9.png',
+            './src/veluto/10.png',
+            './src/veluto/11.png',
+            './src/veluto/12.png',
+            './src/veluto/13.png',
+            './src/veluto/14.png',
+            './src/veluto/15.png',
+            './src/veluto/16.png',
+            './src/veluto/17.png',
+            './src/veluto/18.png',
+            './src/veluto/19.png',
+            './src/veluto/20.png',
         ],
         aspectRatio: 'horizontal'
     },
     {
-        title: 'Rebranding de Identidade Visual - Empresa Z',
+        title: 'TOR3',
         description: 'Condução completa do processo de rebranding, incluindo pesquisa de mercado, desenvolvimento de novo logo, manual de marca e materiais de comunicação.',
         items: [
-            'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=2070&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1586997143482-105a12a5a51a?q=80&w=1932&auto=format&fit=crop'
+            './src/tor3/1.jpg',
+            './src/tor3/2.jpg',
+            './src/tor3/3.jpg',
+            './src/tor3/4.jpg',
+            './src/tor3/5.jpg',
+        ],
+        aspectRatio: 'square'
+    },
+    {
+        title: 'Otimização de SEO - E-commerce W',
+        description: 'Projeto de SEO técnico e de conteúdo que resultou em um aumento de 70% no tráfego orgânico e a conquista da primeira posição para 15 palavras-chave estratégicas.',
+        items: [
+            './src/post-promocao.jpg'
         ],
         aspectRatio: 'vertical'
     },
@@ -73,10 +101,8 @@ export const projectsData: Project[] = [
         title: 'Otimização de SEO - E-commerce W',
         description: 'Projeto de SEO técnico e de conteúdo que resultou em um aumento de 70% no tráfego orgânico e a conquista da primeira posição para 15 palavras-chave estratégicas.',
         items: [
-            'https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1554224155-8d044b40dd68?q=80&w=2070&auto=format&fit=crop'
+            './src/post-dia-das-mulheres.png'
         ],
-        aspectRatio: 'horizontal'
+        aspectRatio: 'square'
     }
 ];

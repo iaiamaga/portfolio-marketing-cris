@@ -8,8 +8,8 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [
-      react(), // ← Plugin do React
-      tailwindcss(), // ← Plugin do Tailwind
+      react(), 
+      tailwindcss(),
     ],
     define: {
       'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
