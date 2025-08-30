@@ -67,7 +67,7 @@ export const projectsData: Project[] = [
             'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=2070&auto=format&fit=crop',
             'https://images.unsplash.com/photo-1586997143482-105a12a5a51a?q=80&w=1932&auto=format&fit=crop'
         ],
-        aspectRatio: 'horizontal'
+        aspectRatio: 'vertical'
     },
     {
         title: 'Otimização de SEO - E-commerce W',

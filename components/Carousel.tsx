@@ -25,7 +25,7 @@ const Carousel: React.FC<CarouselProps> = ({ items, aspectRatio }) => {
       case 'square':
         return 'aspect-square';
       case 'vertical':
-        return 'aspect-9/16';
+       return 'aspect-[9/16]';
       case 'horizontal':
         return 'aspect-video';
       default:
@@ -34,7 +34,7 @@ const Carousel: React.FC<CarouselProps> = ({ items, aspectRatio }) => {
   };
 
   return (
-    <div className="relative w-300 h-300 group">
+<div className="relative w-80 mx-auto group">
       <div
         style={{ backgroundImage: `url(${items[currentIndex]})` }}
         className={`w-full rounded-lg bg-center bg-cover duration-500 ${getAspectRatioClass()}`}
