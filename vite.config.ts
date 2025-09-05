@@ -23,9 +23,19 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       hmr: {
-        overlay: false // ← Movido para o lugar correto
+        overlay: false
       }
-    }
+    },
+    base: './',
+    build: {
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          assetFileNames: 'assets/[name].[ext]'
+        }
+      }
+    },
+    publicDir: 'src'
   };
 });
 
