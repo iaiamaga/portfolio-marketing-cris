@@ -10,7 +10,7 @@ const Header: React.FC = () => {
           style={{
             boxShadow: '8px 8px 16px #d1d9e6, -8px -8px 16px #d1ab2d',
           }}
-          src="../src/cris.jpeg"
+          src="../dist/cris.jpeg"
           alt="Foto de perfil"
         />
       </div>
